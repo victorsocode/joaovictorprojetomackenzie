@@ -2,6 +2,8 @@ O projeto “Monitoramento de Temperatura e Umidade via WiFi” utilizando o mó
 
 Este é um projeto MQTT, do qual manda informações recebidas pelo ESP para a plataforma online dweet, e a plataforma online freeboard recebe do dweet as informações transformando-as em gráficos vísiveis ao usuário, podendo ser acessado de qualquer lugar do mundo contanto que o ESP permaneça ligado e conectado à rede Wifi.
 
+Para a visualização dos dados recebidos pelo dweet, é necessário criar uma conta no freeboard (www.freboard.io) e criar um novo board, e conectá-lo ao dweet criado (especificado no código). Para mais informações de como funciona o dweet, apenas acesse o site oficial www.dweet.io
+
 Materiais necessários:
 1 - Módulo ESP8266 NodeMCU V3
 2 - Sensor de Temperatura e Umidade DHT11
